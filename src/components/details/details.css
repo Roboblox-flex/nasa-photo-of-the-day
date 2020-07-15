@@ -1,0 +1,14 @@
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.btn {
+  width: 6vw;
+  height: 3rem;
+}
+p {
+  width: 50vw;
+}
