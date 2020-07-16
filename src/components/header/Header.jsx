@@ -1,13 +1,25 @@
 import React from "react";
-import "./header.css";
+import styled from "styled-components";
+
+const StyledHeader = styled.div`
+  .h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    height: 15vh;
+    background-color: blue;
+    color: greenyellow;
+  }
+`;
 
 function Header() {
   return (
-    <div>
+    <StyledHeader>
       <header>
         <h1 className="h1">Nasa Photo Of The Day</h1>
       </header>
-    </div>
+    </StyledHeader>
   );
 }
 
